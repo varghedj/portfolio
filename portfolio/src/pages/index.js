@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import Topbar from '../components/Topbar'
 import Navbar from '../components/Navbar'
+import Content from '../components/Content'
 
 const Home = () => {
 
@@ -14,6 +15,7 @@ const Home = () => {
     <>
       <Topbar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle}/>
+      <Content />
     </>
   )
 }
