@@ -18,13 +18,15 @@ const Topbar = ({ isOpen, toggle }) => {
       </Icon>
       <TopbarWrapper>
         <TopbarMenu>
-          <TopbarLink to='about'>About</TopbarLink>
-          <TopbarLink to='skills'>Skills</TopbarLink>
-          <TopbarLink to='projects'>Projects</TopbarLink>
-          <TopbarLink to='social'>Social</TopbarLink>
+          <TopbarLink to='about' onClick={toggle}>About</TopbarLink>
+          <TopbarLink to='skills' onClick={toggle}>Skills</TopbarLink>
+          <TopbarLink to='projects' onClick={toggle}>Projects</TopbarLink>
+          <TopbarLink to='social' onClick={toggle}>Social</TopbarLink>
         </TopbarMenu>
         <TopBtnWrap>
-          <TopbarRoute to='/contact-me'>Contact-me</TopbarRoute>
+          <TopbarRoute to="/contact-me" onClick={toggle}>
+            Contact-me
+          </TopbarRoute>
         </TopBtnWrap>
       </TopbarWrapper>
     </TopbarContainer>
