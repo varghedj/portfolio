@@ -82,7 +82,7 @@ export const NavLinks = styled(LinkS)`
   cursor: pointer;
   margin-right: 24px;
 
-  &:hover {
+  &.active {
     border-bottom: 3px solid #ff0000;
   }
 `
