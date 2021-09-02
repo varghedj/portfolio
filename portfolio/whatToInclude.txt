@@ -1,0 +1,41 @@
+contact information
+Bio
+skills
+education
+coursework
+certificates
+current/previous work experience
+downloadable resume
+photos
+social media accounts (github, linkedin, etc.)
+awards
+projects
+volunteer work
+open source contributions
+achievements
+groups/communities I am associated with
+call to attention
+
+About:
+  - contact information
+  - Bio
+  - Educaiton
+  - resume
+
+Skills:
+  - programming languages
+  - soft skills
+  - certificates
+  - relevant coursework
+
+Projects:
+  - Work Projects
+  - School Projects
+  - Personal Projects
+
+Social:
+  - github
+  - linkedin
+
+Call to attention:
+  - kill it

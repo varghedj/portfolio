@@ -7,10 +7,12 @@ import {
   MobileIcon,
   NavMenu,
   NavItem,
-  NavLinks
+  NavLinks,
+  NavBtn,
+  NavBtnLink
 } from './NavbarElements'
 
-const Navbar = () => {
+const Navbar = ({ toggle }) => {
   return (
     <>
       <Nav>
@@ -18,7 +20,7 @@ const Navbar = () => {
           <NavLogo to='/'>
             Dylan Varghese
           </NavLogo>
-          <MobileIcon>
+          <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
           <NavMenu>
@@ -27,7 +29,27 @@ const Navbar = () => {
                 About
               </NavLinks>
             </NavItem>
+            <NavItem>
+              <NavLinks to='skills'>
+                Skills
+              </NavLinks>
+            </NavItem>
+            <NavItem>
+              <NavLinks to='projects'>
+                Projects
+              </NavLinks>
+            </NavItem>
+            <NavItem>
+              <NavLinks to='social'>
+                Social
+              </NavLinks>
+            </NavItem>
           </NavMenu>
+          <NavBtn>
+            <NavBtnLink to='/contact-me'>
+              Contact-me
+            </NavBtnLink>
+          </NavBtn>
         </NavbarContainer>
       </Nav>
     </>
