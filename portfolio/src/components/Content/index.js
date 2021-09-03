@@ -27,9 +27,10 @@ const Content = () => {
       </ContentBg>
       <MyContent>
         <ContentH1> Hello my Name is Dylan</ContentH1>
-        <ContentP> Put my contact info here</ContentP>
+        <ContentP>
+          dylanvarghese@gmail.com | 703-945-8155</ContentP>
         <ContentBtnWrapper>
-          <ButtonS to='contact-me' 
+          <ButtonS to='contact-me'
           onMouseEnter={onHover}
           onMouseLeave={onHover}
           primary='true'
