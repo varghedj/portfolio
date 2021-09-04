@@ -2,6 +2,8 @@ import React, {useState} from 'react'
 import Topbar from '../components/Topbar'
 import Navbar from '../components/Navbar'
 import Content from '../components/Content'
+import InfoSection from '../components/InfoSection'
+import { homeObjOne } from '../components/InfoSection/Data'
 
 const Home = () => {
 
@@ -16,6 +18,7 @@ const Home = () => {
       <Topbar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle}/>
       <Content />
+      <InfoSection {...homeObjOne}/>
     </>
   )
 }

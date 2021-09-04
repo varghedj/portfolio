@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaBars } from 'react-icons/fa'
+import src from '../../images/seal.jpg'
 import {
   Nav,
   NavbarContainer,
@@ -9,7 +10,8 @@ import {
   NavItem,
   NavLinks,
   NavBtn,
-  NavBtnLink
+  NavBtnLink,
+  Logo
 } from './NavbarElements'
 
 const Navbar = ({ toggle }) => {
@@ -18,6 +20,7 @@ const Navbar = ({ toggle }) => {
       <Nav>
         <NavbarContainer>
           <NavLogo to='/'>
+            <Logo src={src}/>
             Dylan Varghese
           </NavLogo>
           <MobileIcon onClick={toggle}>

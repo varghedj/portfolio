@@ -1,0 +1,16 @@
+export const homeObjOne = {
+  id: 'About',
+  lightBg: true,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: 'About',
+  headline: 'This part of the page will include: bio, education, & downloadable resume',
+  description: 'some descriptive description of sorts',
+  buttonLabel: 'Contact-me',
+  imgStart: false,
+  // img: require('../../images/svg-1.svg'),
+  alt: 'image is not working rn',
+  dark: true,
+  primary: true,
+  darkText: false,
+}
